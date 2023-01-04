@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    padding: 0px;
+}
+
+
+body{
+    background-color: #171C32;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+}
+
+.imagen{
+    background: linear-gradient(40deg, #252C48, #252C48, #252C48,  #4c84ff, #4c84ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 352px;
+    height: 520px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.decoracion{
+    background: #4c84ff;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hola{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin: auto;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h1, h2{
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nombre{
+    color: #4c84ff;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alineacion{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.intro{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imagen, .texto{
+    width: 422px;
+    height: 570px;
+    border-radius: 10px;
+}
+
+button{
+    background: #4c84ff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button:hover{
+    background: #2850a7;
+    border:  2px solid #4c84ff;
+}
+
+button:active{
+    background: #4c84ff;
+    width: 175px;
+    height: 45px;
+
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+}
